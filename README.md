@@ -7,7 +7,7 @@ Welcome to the Space Echoes Group's project for NASA Space Apps! This project is
 - [Project Overview](#project-overview)
 - [Team](#team)
 - [Prerequisites](#prerequisites)
-- [File Parameters](#file-parameters)
+- [File Parameters](#file-parameters)https://github.com/prfagun1/SpaceEchoes/blob/main/README.md
 - [Troubleshooting](#troubleshooting)
 
 ## Project Overview
@@ -63,32 +63,32 @@ This project is licensed under the terms of the MIT License. Please refer to the
 
 In case you encounter an error related to audiolazy, you'll need to make adjustments to the following files with the updated version of collections:
 
-File: Python311\site-packages\audiolazy\lazy_analysis.py
+File: Python\site-packages\audiolazy\lazy_analysis.py
 from collections import deque
 from collections.abc import Sequence, Iterable
 
-File: Python311\site-packages\audiolazy\lazy_core.py
+File: Python\site-packages\audiolazy\lazy_core.py
 from collections.abc import Iterable
 
 
-File: Python311\site-packages\audiolazy\lazy_stream.py
+File: Python\site-packages\audiolazy\lazy_stream.py
 from collections.abc import Iterable
 from collections import deque
 
-File: Python311\site-packages\audiolazy\lazy_misc.py
+File: Python\site-packages\audiolazy\lazy_misc.py
 from collections import deque
 from collections.abc import Iterable
 
 
-File: Python311\site-packages\audiolazy\lazy_filters.py
+File: Python\site-packages\audiolazy\lazy_filters.py
 from collections.abc import Iterable
 from collections import OrderedDict
 
 
-File: Python311\site-packages\audiolazy\lazy_poly.py
+File: Python\site-packages\audiolazy\lazy_poly.py
 from collections.abc import Iterable
 from collections import deque, OrderedDict
 
 
-File: Python311\site-packages\audiolazy\lazy_itertools.py
+File: Python\site-packages\audiolazy\lazy_itertools.py
 from collections.abc import Iterator
