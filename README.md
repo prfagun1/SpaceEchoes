@@ -51,6 +51,11 @@ Fine-tune your settings with these file parameters:
 - **desired_duration**: Choose to capture only a specific portion of the video if you prefer.
 - **note_names**: We're using a set of musical notes, and there are two more examples included. Feel free to create your own.
 
+```
+This project is licensed under the terms of the MIT License. Please refer to the [LICENSE](LICENSE) file for more details.
+[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green)](LICENSE)
+
+
 ## Attention
 
 In case you encounter an error related to audiolazy, you'll need to make adjustments to the following files with the updated version of collections:
